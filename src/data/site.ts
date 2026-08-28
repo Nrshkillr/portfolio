@@ -32,12 +32,12 @@ export const siteConfig = {
     {
       degree: "M.Sc. Computer Science",
       school: "Dr. Ambedkar Government Arts College, Chennai",
-      year: "2021 – 2023",
+      year: "2024 – 2026",
     },
     {
       degree: "B.Sc. Computer Science",
       school: "Dr. Ambedkar Government Arts College, Chennai",
-      year: "2018 – 2021",
+      year: "2021 – 2024",
     },
   ],
 } as const
