@@ -12,10 +12,10 @@ export const siteConfig = {
   url: "https://naresh.dev",
   ogImage: "/og.png",
   links: {
-    github: "https://github.com/naresh-dev",
-    linkedin: "https://linkedin.com/in/naresh-dev",
-    twitter: "https://twitter.com/naresh_dev",
-    email: "mailto:naresh@example.com",
+    github: "https://github.com/Nrshkillr/",
+    linkedin: "",
+    twitter: "",
+    email: "nrshkillr@gmail.com",
   },
   stats: [
     { value: "3+", label: "Years Learning & Building", numeric: 3 },
