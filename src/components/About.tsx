@@ -54,9 +54,18 @@ export default function About() {
                 <div className="rounded-[22px] overflow-hidden bg-[#0a0a12] border border-white/10 p-3">
                   <div className="relative aspect-[3/3.6] overflow-hidden rounded-[18px] bg-gradient-to-br from-zinc-900 to-black">
                     <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80&auto=format&fit=crop"
-                      alt="Naresh"
-                      className="h-full w-full object-cover"
+                      src={siteConfig.profileImage}
+                      alt={siteConfig.fullName}
+                      className="h-full w-full object-cover object-[50%_12%] scale-[1.02]"
+                      loading="eager"
+                      onError={(e) => {
+                        const img = e.target as HTMLImageElement;
+                        if (img.src.includes("profile.jpg")) {
+                          img.src = "/profile.png";
+                        } else if (img.src.includes("profile.png")) {
+                          img.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80&auto=format&fit=crop";
+                        }
+                      }}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                     <div className="absolute bottom-3 left-3 right-3 glass rounded-xl px-3 py-3">
