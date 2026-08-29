@@ -6,7 +6,7 @@ export const siteConfig = {
   description: "Full-stack developer focused on building modern web applications, intelligent systems, and practical digital products.",
   heroHeading: "BUILDING DIGITAL EXPERIENCES THAT MATTER.",
   heroSub: "Full-stack developer focused on building modern web applications, intelligent systems, and practical digital products.",
-  email: "naresh@example.com",
+  email: "nrsh.devop@gmail.com",
   location: "Chennai, India",
   availability: "Open for opportunities",
   url: "https://naresh.dev",
@@ -16,7 +16,7 @@ export const siteConfig = {
     github: "https://github.com/Nrshkillr/",
     linkedin: "",
     twitter: "",
-    email: "nrshkillr@gmail.com",
+    email: "nrshk.devop@gmail.com",
   },
   stats: [
     { value: "3+", label: "Years Learning & Building", numeric: 3 },
