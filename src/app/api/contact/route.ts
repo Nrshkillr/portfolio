@@ -6,7 +6,7 @@ import { siteConfig } from "@/data/site";
 export const runtime = "nodejs";
 
 const CONTACT_TO = process.env.CONTACT_TO_EMAIL || siteConfig.email; // nrsh.devop@gmail.com
-const CONTACT_FROM = process.env.CONTACT_FROM_EMAIL || `https://portfolio-jade-xi-43.vercel.app/`; // change to verified domain
+const CONTACT_FROM = process.env.CONTACT_FROM_EMAIL || `Portfolio <onboarding@resend.dev>`; // change to verified domain
 
 async function sendEmail({ name, email, subject, message }: { name: string; email: string; subject?: string; message: string }) {
   const html = `
