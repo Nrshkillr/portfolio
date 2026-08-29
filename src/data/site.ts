@@ -10,7 +10,7 @@ export const siteConfig = {
   location: "Chennai, India",
   availability: "Open for opportunities",
   url: "https://naresh.dev",
-  ogImage: "/profile.png",
+  ogImage: "/og.png",
   profileImage: "profile.png", // public/profile.png (also profile.jpg fallback available)
   links: {
     github: "https://github.com/Nrshkillr/",
