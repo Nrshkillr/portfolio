@@ -11,6 +11,7 @@ export const siteConfig = {
   availability: "Open for opportunities",
   url: "https://naresh.dev",
   ogImage: "/og.png",
+  profileImage: "profile.png", // public/profile.png (also profile.jpg fallback available)
   links: {
     github: "https://github.com/Nrshkillr/",
     linkedin: "",
