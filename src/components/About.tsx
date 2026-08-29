@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Code2, Lightbulb, Monitor, Rocket } from "lucide-react";
+import { siteConfig } from "@/data/site";
 
 const items = [
   { icon: Monitor, title: "Web Development", desc: "Building fast, responsive and modern websites." },
@@ -52,7 +53,7 @@ export default function About() {
               <div className="absolute -inset-6 bg-gradient-to-br from-violet-600/20 via-cyan-500/10 to-fuchsia-600/10 blur-2xl rounded-[30px]" />
               <div className="relative rounded-[28px] border border-white/10 bg-gradient-to-b from-white/[0.06] to-white/[0.01] p-2 backdrop-blur">
                 <div className="rounded-[22px] overflow-hidden bg-[#0a0a12] border border-white/10 p-3">
-                  <div className="relative aspect-[3/3.6] overflow-hidden rounded-[18px] bg-gradient-to-br from-zinc-900 to-black">
+                  <div className="relative aspect-[3/3.6] overflow-hidden rounded-[18px] bg-[#0a0a12]">
                     <img
                       src={siteConfig.profileImage}
                       alt={siteConfig.fullName}
@@ -67,10 +68,11 @@ export default function About() {
                         }
                       }}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/5 to-transparent pointer-events-none" />
+                    <div className="absolute inset-0 ring-1 ring-white/10 rounded-[18px] pointer-events-none" />
                     <div className="absolute bottom-3 left-3 right-3 glass rounded-xl px-3 py-3">
-                      <div className="text-sm font-semibold leading-none">Naresh</div>
-                      <div className="text-[11px] text-white/60">Web & Software Developer</div>
+                      <div className="text-sm font-semibold leading-none">{siteConfig.fullName}</div>
+                      <div className="text-[11px] text-white/60">{siteConfig.title}</div>
                     </div>
                   </div>
                 </div>
