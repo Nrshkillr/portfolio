@@ -62,7 +62,7 @@ export default function EducationAndBuilding() {
             </div>
             <div className="w-[110px] shrink-0 rounded-xl border border-white/10 bg-black/30 p-3">
               <div className="flex items-center gap-2">
-                <img src="public/profile.jpg w=100&q=80" className="h-7 w-7 rounded-full object-cover" alt="avatar" />
+                <img src="/profile.jpg?w=100&q=80" className="h-7 w-7 rounded-full object-cover" alt="avatar" />
                 <div>
                   <div className="text-xs font-semibold leading-none">Naresh</div>
                   <div className="text-[10px] text-white/50">@naresh-dev</div>
