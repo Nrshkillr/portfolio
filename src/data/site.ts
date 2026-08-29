@@ -16,7 +16,7 @@ export const siteConfig = {
     github: "https://github.com/Nrshkillr/",
     linkedin: "",
     twitter: "",
-    email: "nrshk.devop@gmail.com",
+    email: "mailto:nrsh.devop@gmail.com",
   },
   stats: [
     { value: "3+", label: "Years Learning & Building", numeric: 3 },
